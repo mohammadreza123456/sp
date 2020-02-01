@@ -1110,6 +1110,15 @@ li.social-links a {
     padding-bottom: 0;
 }
 
+.message-box .lead2 {
+    padding-top: 10px;
+    font-size: 25px;
+    /* font-style: italic; */
+    color:black;
+    padding-bottom: 0;
+    margin-left:155px
+}
+
 .post-media {
     position: relative;
 }
