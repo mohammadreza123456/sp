@@ -49,6 +49,17 @@
     SKELETON
 -------------------------------------------------------------------*/
 
+
+@font-face {
+    font-family: vazir;
+    src: url('vazir-font-v18.0.0/Vazir-Bold.eot');
+    src: url('vazir-font-v18.0.0/Vazir-Light.eot') format('FontName-opentype'),
+         url('vazir-font-v18.0.0/Vazir-Medium.woff') format('woff'),
+         url('vazir-font-v18.0.0/Vazir-Thin.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
 body {
     color: #999;
     font-size: 15px;
@@ -105,6 +116,7 @@ h6 {
     position: relative;
     padding: 0 0 10px 0;
     font-weight: normal;
+    font-family: vazir;
     line-height: 120% !important;
     color: #1f1f1f;
     margin: 0
@@ -1116,7 +1128,8 @@ li.social-links a {
     /* font-style: italic; */
     color:black;
     padding-bottom: 0;
-    margin-left:155px
+    margin-left:145px;
+    font-family: vazir;
 }
 
 .post-media {
